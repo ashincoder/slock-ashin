@@ -1,17 +1,6 @@
-/*  ▄▄▄        ██████  ██░ ██  ██▓ ███▄    █  */
-/* ▒████▄    ▒██    ▒ ▓██░ ██▒▓██▒ ██ ▀█   █  */
-/* ▒██  ▀█▄  ░ ▓██▄   ▒██▀▀██░▒██▒▓██  ▀█ ██▒ */
-/* ░██▄▄▄▄██   ▒   ██▒░▓█ ░██ ░██░▓██▒  ▐▌██▒ */
-/*  ▓█   ▓██▒▒██████▒▒░▓█▒░██▓░██░▒██░   ▓██░ */
-/*  ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒░▓  ░ ▒░   ▒ ▒  */
-/*   ▒   ▒▒ ░░ ░▒  ░ ░ ▒ ░▒░ ░ ▒ ░░ ░░   ░ ▒░ */
-/*   ░   ▒   ░  ░  ░   ░  ░░ ░ ▒ ░   ░   ░ ░  */
-/*       ░  ░      ░   ░  ░  ░ ░           ░  */
-/
-
 /* user and group to drop privileges to */
-static const char *user  = "ashin";
-static const char *group = "ashin";
+static const char *user  = "nobody";
+static const char *group = "nogroup";
 
 static const char *colorname[NUMCOLS] = {
 	[BACKGROUND] =   "black",     /* after initialization */
