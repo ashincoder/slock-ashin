@@ -14,7 +14,9 @@ git clone this repository and:
     
     `sudo make clean install`
 
-Or Install from AUR repository
+Or Install from AUR repository:
+    
+    `yay -S slock-ashin-git`
 
 Running slock
 -------------
