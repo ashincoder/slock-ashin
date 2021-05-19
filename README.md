@@ -7,6 +7,10 @@ Requirements
 ------------
 In order to build slock you need the Xlib header files.
 
+Patches
+-------
+Patches added are in the patches folder:
+  caps-color-alerter-patch and dwm-logo-patch
 
 Installation
 ------------
